@@ -67,3 +67,17 @@ Continue with the course to add verification and deployment. Keep `package-lock.
 ## Configuration
 
 The server uses port `3000` unless `PORT` is set. The home page displays `APP_VERSION`, defaulting to `development`. Neither variable is required to run the starter locally.
+
+## Captures d'écran
+
+### Vérification GitHub Actions
+![Actions verify pass](captures/actions-verify-pass.png)
+
+### Ruleset de protection de main
+![Ruleset protect main](captures/ruleset-protect-main.png)
+
+### Render : premier déploiement
+![Render first deploy](captures/render-first-deploy.png)
+
+### Render : auto-deploy
+![Render auto deploy](captures/render-auto-deploy.png)
