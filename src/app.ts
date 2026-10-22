@@ -12,6 +12,11 @@ app.get('/', (_request, response) => {
   `);
 });
 
+// 👇 Route temporaire ajoutée pour tester
+app.get('/api/ping', (_request, response) => {
+  response.json({ pong: true });
+});
+
 app.get('/api/health', (_request, response) => {
   response.json({
     status: 'ok',
